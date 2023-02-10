@@ -1,0 +1,421 @@
+
+.bg-color1{
+    background-color: #8EB359;
+}
+            /* header  */
+
+.nav-link{
+    font-weight: 500 !important;
+    margin: 0px 10px;
+}
+
+.nav-link:hover{
+    color: #8EB359;
+}
+
+
+.text-color1{
+    color: #8EB359;
+}
+
+.btn-outline-success{
+    --bs-btn-hover-bg:#8eb359;
+    --bs-btn-color: #8eb359;
+    --bs-btn-border-color: #8eb359;
+    --bs-btn-hover-border-color: #8eb359;
+}
+
+
+.header-fixed{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 99;
+    background-color: #f8f9fa;
+  
+
+}
+
+                /* section-1  */
+
+.btn1{
+    box-shadow:0px 0px 8px 0px #000000
+}  
+
+.btn1:hover{
+    background-color: #8EB359;
+    color: #ffffff;
+
+}
+
+
+
+.btn2{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+
+.btn2:hover{
+    background-color: #ffffff;
+    color: #8EB359;
+}
+
+.intro-img-text{
+    top: 15%;
+    left: 10%;
+    width: 50%;
+    position: absolute;
+}
+
+
+.intro-img-text1{
+    top: 20%;
+    left: 0%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+
+            /* section-3-categories  */
+
+
+
+.s3-hover-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+}  
+
+.btn3{
+    color: #000000;
+    background-color: #ffffffcf;
+    padding: 15px 0px;
+    width: 85%;
+}
+
+.btn3-text{
+    color: #000000;
+}
+
+
+.s3-hover-btn:hover .btn3{
+    background-color: #8EB359;    
+}
+
+.s3-hover-btn:hover .btn3-text{
+    color: #ffffff;
+}
+
+
+
+                /* section-4 selling products */
+
+.s4-hover:hover img{
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+
+.s4-hover1{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    border-radius: 5px;
+    
+}
+
+.s4-hover2{
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    border-radius: 5px;
+}
+
+.divider{
+    width: 35px;
+    border-top-width: 4px;
+    border-color: #8EB359;
+    opacity: 1;
+}
+
+
+.banner-img-hover{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+
+.banner-img-hover1{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.banner-img-hover2{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
+/* section-6 summer sale  */
+
+
+
+.banner-img-hover3{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+    
+}
+
+
+
+/* section-7 blog  */
+
+
+.s7-hover-tag1{
+    position: absolute;
+    top: 8%;
+    right: 30%;
+    padding: 0px 5px;
+    border-radius: 2px;
+    background-color: #00000086;
+    color: #ffffff;
+}
+
+.s7-hover-tag2{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    padding: 0px 5px;
+    border-radius: 2px;
+    background-color: #00000086;
+    color: #ffffff;
+}
+
+
+
+/* section-8 newsletter  */
+
+
+
+ .s8-bg-img{
+    background-color: #474749;
+    background-image: url(../images/newsletterimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+
+
+
+
+
+            /* media-query index page  */
+
+
+
+
+
+
+
+@media screen and (max-width:991px ) {
+    .intro-img-text{
+        position: relative;
+        width: 100%;
+        padding-top: 20px;
+       
+    }
+
+        
+    .intro-img-text1{
+        position: relative;
+        width: 100%;
+        top: 20%;
+        left: 10%;
+        padding-top: 20px;
+        text-align: start;
+    }
+
+    .text-color2{
+        color: #8EB359 !important;
+    }
+
+    
+    .btn2{
+        box-shadow:0px 0px 8px 0px #000000;
+        border: none;
+        color: #8EB359;
+    }
+
+    .btn2:hover{
+        background-color: #8EB359;
+        color: #ffffff;
+    }
+
+
+    .md-position{
+        position: absolute;
+        right: 20%;
+        bottom: 20%;
+        
+    }
+}
+
+@media screen and (max-width:576px) {
+    .md-position{
+        position: static;
+    }
+
+    .banner-img-hover3{
+        top: 5%;
+    }
+
+    .blog-tag1{
+        left: 5%;
+        bottom: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+                /* about us page  */
+
+
+
+
+
+.s1-bg-img{
+    background-image: url(../images/s1bg-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* section-2  */
+
+.btn4{
+    color: #000000;
+    background-color: #ffffffcf;
+    padding: 12px 35px;
+    text-decoration: none;
+    border: 2px solid #222;
+    font-weight: 500;
+    width: 85%;
+    border-radius: 5px;
+}
+
+.btn4:hover{
+    background-color: #222;
+    color: #ffffff;
+}
+
+/* section-4 our services  */
+
+
+.progress{
+    --bs-progress-height: .5rem;
+    --bs-progress-bar-bg:#8EB359;
+}
+
+
+
+
+/* section-5 clients  */
+
+
+.s5-bg-img{
+    background-color: #323234;
+    background-image: url(../images/about-s5bgimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/* blog page  */
+
+
+
+
+
+
+
+/* section-2 blog  */
+
+.blog-tag1{
+    position: absolute;
+    left: 30%;
+    bottom: 2%;
+
+}
+
+
+
+
+@media screen and (max-width:576px) {
+   
+
+    .blog-tag1{
+        width: 95%;
+        margin: auto;
+        left: 2%;
+        bottom: 5%;
+    }
+}
+
+
+
+
+
+/* contact us page  */
+
+
+
+
+.s5-bg-img1{
+    background-color: #323234;
+    background-image: url(../images/contactbg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* register page  */
+
+
+
+
+.input-width{
+    width: 45%;
+    display: inline-block;
+}
